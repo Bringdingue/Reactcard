@@ -1,0 +1,41 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+$border: 0.5rem double red;
+$box-shadow: 10px 5px 5px blue;
+
+.card {
+    border: $border;
+    box-shadow: $box-shadow;
+    border-radius: 2rem;
+    width: 50vw;
+    height: 50vh;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid blue;
+    padding: 1rem;
+
+}
+
+.stars {
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+    align-items: center;
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+
+p {
+    font-weight: bold;
+}
+
+.ol {
+    color: red;
+}
+
+.ly {
+    color: blue;
+}
